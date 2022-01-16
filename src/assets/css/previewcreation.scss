@@ -1,0 +1,323 @@
+.projectcreationstyle {
+
+    div {
+        margin-bottom: 0 !important;
+    }
+
+    .ant-tabs-left > .ant-tabs-content-holder, .ant-tabs-left > div > .ant-tabs-content-holder {
+        padding: 0px 0px !important;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active {
+        font-weight: bold;
+        font-size: 13px !important;
+        color: #837e7e;
+        background-color: transparent !important;
+    }
+    .ant-tabs-tab-btn{
+    font-size: 13px;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+        font-size: 13px;
+    }
+    
+    .previewbg {
+        background-color: #fff;
+    }
+    .organisationContainer {
+        // margin-top: 0px;
+        border-top-left-radius: 45px;
+        // margin: 20px 65px;
+    }
+    .inprogress {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+        background: #CDCCCB;
+        border-radius: 30px;
+        border: none;
+    }
+    .underreviewbutton {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+        background: #FFD447;
+        border-radius: 30px;
+        border: none;
+    }
+    .reviewHeading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        color: #39364F;
+        opacity: 0.6;
+    }
+    .monthd {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19px;
+        color: #39364F;
+    }
+    .textbulb {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 23px;
+        color: #39364F;
+    }
+    button.ant-btn.steps-action.formStyles.previewreview {
+        border: 1px solid #000;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 19px;
+        height: 50px;
+        border-radius: 6px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 10%;
+    }
+    .projectcreationstyle button.ant-btn.steps-action.formStyles.previewreview:hover {
+    color: #000;
+    }
+    .nametitle {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19px;
+        color: #39364F;
+        padding-top: 9px;
+    }
+    p.congrat {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 26px;
+        color: #39364F;
+    }
+    .congratdesc {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #39364F;
+    }
+    .huma {
+        position: relative;
+        left: -82px;
+    }
+    .bottomline {
+        margin-left: 28%;
+    }
+    .sidebar.review {
+        border-right: 1px solid #E4E4E4;
+        /* transform: rotate(
+    -90deg
+    ); */
+    }
+    .mail {
+        background-color: #39364f;
+        padding: 8px;
+        border-radius: 20px;
+        margin-right: 30px;
+    }
+    body {
+        background: #fff !important;
+    }
+    .verticalLine hr{
+        width: 100%;
+    }
+    .steps-action {
+        margin-top: 24px;
+        width: 100%;
+    }
+    .projectContent{
+        padding: 48px 26px;
+        border-radius: 12px;
+        margin: 20px 50px;
+    }
+    .orgCardLoc {
+        font-weight: 600;
+        opacity: unset;
+        font-family: Inter;
+    }
+    .basicfont{
+        font-size: 16px;
+    }
+    .program-creation-form .form-container .ant-radio-button-wrapper-checked {
+        border: 2px solid #3a8d9d;
+        background-color: #fff;
+        box-shadow: none;
+    }
+    .program-creation-form .form-container .ant-radio-button-wrapper {
+        border: 2px solid #d9d8d8;
+        border-radius: 0.25rem;
+        height: 48px;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .checkproj {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 16px;
+        height: 50px;
+        left: 267px;
+        top: 698px;
+        background: #F3F8F9;
+        border: 1px solid #3A8D9D;
+        border-radius: 6px;
+    }
+    span.ant-radio {
+        display: none;
+    }
+    .scroll {
+        padding-top: 40px;
+        max-height: 125vh;
+    }
+    .previewLabel.desc {
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .plan p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .customsidebar .ant-tabs-tab.ant-tabs-tab-active {
+        font-weight: bold;
+        font-size: 13px;
+        background-color: transparent;
+        color: #837e7e;
+    }
+
+// project creation form css
+.internal {
+    color: #3a8d9d;
+    font-weight: 600;
+}
+.floatRight.repor .ant-btn {
+    height: 48px !important;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.subdescrip {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+}
+.headdesc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #3A8D9D;
+}
+.quickviewdura {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #39364F;
+}
+.mandatorydet {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #39364F;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
+.impactpriorityheading h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 37px;
+letter-spacing: 0.01em;
+color: #39364F;
+}
+
+.program-creation-form .form-container button.ant-btn.ant-btn-dashed.ant-btn-block.addcontent.highliht {
+    text-align: left;
+    background-color: #F2F2F2;
+}
+.program-creation-form .form-container button.ant-btn.ant-btn-dashed.ant-btn-block.addcontent.highliht:hover {
+    text-align: left;
+    background-color: #F2F2F2;
+}
+.target-cat .ant-checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    border: 1px solid #3A8D9D;
+    border-radius: 6px;
+}
+.formStyles input, .formStyles .form-control {
+    border-radius: 6px !important;
+    padding: 15px 0px 15px 20px !important;
+    border: 1px solid #d9d8d8;
+    height: 48px !important;
+    font-size: 13px;
+}
+
+.ant-select-selection-search-input {
+    border-radius: 6px !important;
+    padding: 15px 0px 15px 20px !important;
+    border: 1px solid #d9d8d8;
+    height: 48px !important;
+    font-size: 13px;
+}
+span.ant-radio-button.ant-radio-button-checked {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    background: #F3F8F9;
+    border: 1px solid #e6eaea;
+    border-radius: 6px;
+}
+// .ant-notification-notice.ant-notification-notice-error.ant-notification-notice-closable {
+//     height: 10% !important;
+//   }
+
+  

@@ -1,0 +1,49 @@
+.invite-user-list-container {
+  background-color: #fff;
+  .title-area {
+    align-items: center;
+    padding-left: 12px;
+  }
+  .user-card {
+    background-color: #fff;
+    padding: 12px;
+    margin: 24px 12px;
+    // box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+    box-shadow: 1px 1px 8px rgb(81 74 129 / 20%);
+    border-radius: 12px;
+  }
+  .card-chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 11.25rem;
+    font-size: 14px;
+    padding: 6px 12px;
+    background: #b0d1d8;
+    text-align: center;
+    border-radius: 31px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  @media (min-width: 992px) {
+    .content-wrapper {
+      padding: 3rem 1rem 1rem 1rem;
+    }
+  }
+
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
+  .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+    padding: 0px !important;
+  }
+
+  .ant-tabs-tab-btn {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .customLink > span {
+    text-decoration: underline;
+    color: #3A8D9D;
+  }
+}

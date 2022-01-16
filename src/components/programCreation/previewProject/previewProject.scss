@@ -1,0 +1,282 @@
+.previewbgcoloroverview {
+  background-color: #fff;
+
+  .ant-steps-horizontal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+
+    .ant-steps-item-custom {
+      flex: none;
+      margin: 0 1rem;
+
+      .ant-steps-item-title {
+        padding: 0;
+      }
+    }
+  }
+
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+    border-bottom: 2px solid #39364f;
+  }
+
+  .previewgreetText {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #39364f;
+    text-transform: none;
+    letter-spacing: 0rem;
+  }
+
+  .previewgreetMessage {
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    font-weight: normal;
+  }
+
+  .previewProgramName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #39364f;
+    width: 10rem;
+    margin: 0;
+  }
+
+  .inprogress_div {
+    width: 141px;
+    height: 36px;
+    background: #cdcccb;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem 0;
+  }
+
+  .inprogress_div_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+
+  img.inprogess_image {
+    width: 47px;
+    height: 47px;
+  }
+
+  img.previewoverviewimage {
+    padding: initial;
+  }
+
+  .previewContainer {
+    padding: 2rem;
+    background: #f4f8f8;
+    box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+    border-top-left-radius: 5rem;
+    margin: 1.5rem 0;
+
+    .card-container {
+      margin: 3rem;
+    }
+
+    .previewContent {
+      padding: 48px 26px;
+      background: #ffffff;
+      box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+      border-radius: 12px;
+      margin: 2rem 0rem;
+    }
+
+    .UNSG_child_div {
+      .UNSG_child_div_heading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #39364f;
+      }
+    }
+  }
+
+  .previewCardHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #39364f;
+  }
+
+  .previewCardHeadingText {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 12rem;
+  }
+
+  .previewContentDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .previewCardLoc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    opacity: 0.6;
+  }
+
+  .overview_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0px;
+  }
+
+  .overview_div_p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .verticalLine {
+    height: 1px;
+    opacity: 0.1;
+    background: #39364f;
+  }
+
+  .form-group {
+    margin-bottom: 0rem;
+  }
+
+  .textCenter {
+    text-align: center !important;
+  }
+
+  .previewForm {
+    .previewButton {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 50px;
+      width: 100%;
+      height: 51px;
+      background: #39364f !important;
+      border-radius: 6px;
+
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 19px;
+      border-color: #39364f !important;
+      color: #fff !important;
+      margin-top: 10%;
+    }
+  }
+}
+
+.projectcreation-preview {
+  background: #fff;
+  font-weight: normal;
+  font-size: 15px;
+
+  .right-align-section {
+    padding-left: 5% !important;
+  }
+  .content-info {
+    margin-top: 50px;
+  }
+  .previewHeading {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    color: #39364f;
+    padding-left: 12px;
+  }
+  .previewLabel {
+    font-family: Poppins;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 5px 0px;
+    color: #3a8d9d;
+  }
+  .previewData {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    flex-grow: 0;
+    margin: 5px 0px;
+  }
+  //.divSpace {
+  //  padding: 20px 0px 0px 0px;
+  //}
+  .basicfont {
+    font-size: 16px;
+  }
+  .checkproj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    height: 50px;
+    left: 267px;
+    top: 698px;
+    background: #f3f8f9;
+    border: 1px solid #3a8d9d;
+    border-radius: 6px;
+  }
+  .ant-radio-icon {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+  .duration {
+    padding-top: 25px;
+  }
+}
+
+.row {
+  // margin-right: 0rem !important;
+}
+
+.scroll {
+  padding: 0rem 4.5rem 2.5rem 2rem !important;
+}
+
+.right-align-section {
+  padding-left: 1rem !important;
+}

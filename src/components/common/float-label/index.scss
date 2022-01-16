@@ -1,0 +1,77 @@
+$primary-title-text-color: #3a8d9d;
+$field-border-default: #d9d8d8;
+.float-label {
+  position: relative;
+  margin: 0.25rem 0;
+  .label {
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 12px;
+    top: 16px;
+    transition: 0.2s ease all;
+    color: #a7a5a5;
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .label-float {
+    top: -7px;
+    background-color: #fff;
+    padding: 0 0.3rem;
+    font-size: 10px;
+    color: $primary-title-text-color;
+  }
+  .ant-input {
+    padding: 12px;
+  }
+
+  .ant-select .ant-select-selector {
+    padding: 12px;
+  }
+
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    padding: 10px;
+  }
+
+  .ant-select-single .ant-select-selector .ant-select-selection-search {
+    top: 10px;
+  }
+  .ant-input,
+  .ant-picker,
+  .ant-select-selector,
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 6px;
+    border: 1px solid $field-border-default;
+    height: 48px;
+    width: 100%;
+  }
+
+  .ant-input:focus,
+  .ant-picker-focused,
+  .ant-select-selector:focus,
+  .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector:focus,
+  .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    border: 2px solid $primary-title-text-color;
+    box-shadow: none;
+    border-right-width: 2px !important;
+  }
+
+  .ant-input:hover,
+  .ant-picker:hover,
+  .ant-select-selector:hover,
+  .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector:hover {
+    border: 2px solid $primary-title-text-color;
+    border-right-width: 2px !important;
+  }
+  .ant-picker-input {
+    input::placeholder {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.metrics_preview {
+  .banner-section {
+    border: 1px solid #D9D8D8;
+    margin-top: 2rem;
+  }
+
+  .metrics_preview_heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0.3rem;
+  }
+
+  .metrics_preview_primary {
+    color: #10A3BF;
+  }
+
+  .metrics_preview_secondary {
+    color: #BDB0EB;
+    margin-top: 2rem;
+  }
+
+  .metrics_preview_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+    padding: 0;
+    margin: 0;
+
+    .metrics_preview_container_fchild {
+      width: 100%;
+
+      .metrics_preview_child_container {
+        padding: 3rem 2rem 3rem 3rem;
+
+        .metrics_preview_child_container_div1 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1rem;
+        }
+
+        .metrics_preview_child_container_div2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .impact_div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .impact_category {
+          padding-right: 21rem;
+        }
+
+        .impact_priority {
+          padding-right: 16rem;
+        }
+
+        .formoutline {
+          font-size: 1.2rem;
+        }
+
+        .strategic_sub_heading {
+          margin-bottom: 0.6rem;
+        }
+
+        .strategic_sub_heading6 {
+          margin: 0rem;
+        }
+      }
+    }
+
+    .primary_card1 {
+      background: #F4F8F8;
+      border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .primary_card2 {
+      background: #FFFFFF;
+    }
+
+    .primary_card3 {
+      border-radius: 0rem 0rem 1rem 1rem;
+      background: #F4F8F8;
+    }
+
+    .collapse2 {
+      border-top: 1px solid #d9d9d9 !important;
+      border-radius: 0rem 0rem 1rem 1rem;
+    }
+
+    .collapse_div {
+      border: 0;
+      width: 100%;
+      background: #FFFFFF;
+
+      .collapsePanel {
+        padding: 1rem;
+        border-bottom: 0px !important;
+
+        .ant-collapse-header {
+          padding: 1rem 2rem !important;
+          font-size: 1rem;
+        }
+
+        .ant-collapse-content, .ant-collapse-item {
+          border-width: 0;
+
+          .ant-collapse-content-box {
+            padding: 0rem 1rem !important;
+          }
+        }
+
+        .collapsePanelHeading {
+          padding-left: 1rem;
+        }
+
+        .strategic_sub_heading {
+          margin-bottom: 0.6rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dashboardMenu .itemStyle {
+  padding-left: 14px !important;
+  text-transform: capitalize !important;
+  font-size: 13px !important;
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider {
+  height: 600px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.ant-menu-item-selected {
+  color: #39364f !important;
+}
+
+.ant-menu {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  font-feature-settings: "tnum", "tnum";
+  margin-bottom: 0;
+  padding-left: 0;
+  color: rgb(138 138 138 / 85%) !important;
+  font-size: 14px;
+  line-height: 0;
+  text-align: left;
+  list-style: none;
+  background: #fff;
+  outline: none;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%);
+  transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #1b1b1b !important;
+  transform: scaleY(0.0001);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: "";
+}
+
+.sectionsd {
+  padding: 0px 0px !important;
+  margin-top: 1% !important;
+  overflow: hidden;
+}
+
+.ant-menu {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 25px !important;
+  padding-left: 14px !important;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  font-feature-settings: "tnum", "tnum";
+  margin-bottom: 0;
+  padding-left: 0;
+  color: #39364f;
+  font-size: 14px;
+  line-height: 0;
+  text-align: left;
+  list-style: none;
+  background: #ffffff !important;
+  outline: none;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%);
+  transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+
+.ant-layout-sider {
+  position: relative;
+  min-width: 0;
+  background: #ffffff !important;
+  transition: all 0.2s;
+  /* margin-top: 2%; */
+}
+
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #ffffff !important;
+}
+.ant-layout-sider-children {
+  height: 100%;
+}
+
+.contentPadding {
+  padding: 24px 24px;
+  background: #ededed;
+  margin: 2%;
+  height: 136px;
+}
+
+.registrationButton:hover,
+.registrationButton:focus {
+  color: #39364f !important;
+  background: #ffffff !important;
+  border-color: #bfbfbf !important;
+}
+
+.registrationButton {
+  color: rgb(0, 0, 0) !important;
+  background: #ffffff !important;
+  border-radius: 50px;
+  /* font-size: 13px; */
+  color: #39364f !important;
+  border-color: #bfbfbf;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #d6d6d6;
+}

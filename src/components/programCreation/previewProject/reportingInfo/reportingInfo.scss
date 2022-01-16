@@ -1,0 +1,33 @@
+.reporting_preview {
+  .banner-section {
+    border: 1px solid #D9D8D8;
+    margin-top: 2rem;
+  }
+
+  .reporting_preview_container {
+    padding: 1rem 2rem;
+
+    .reporting_preview_container_div1 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1.5rem 0rem 0rem;
+
+      .reporting_preview_container_div1_p {
+        margin: 0rem !important;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3A8D9D;
+      }
+    }
+
+    .reporting_preview_container_div2 {
+      .reporting_preview_container_div2_div {
+        padding: 0;
+      }
+    }
+  }
+}

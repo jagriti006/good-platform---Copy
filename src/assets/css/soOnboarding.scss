@@ -1,0 +1,85 @@
+.soStyle {
+  .bgcoloroverview
+    .ant-steps-item-process
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    border-bottom: 2px solid #39364f;
+  }
+
+  .ant-steps-item-icon {
+    display: block !important;
+  }
+
+  .greetText {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    line-height: 37px;
+    color: #39364f;
+    text-transform: capitalize;
+  }
+  .greetMessage {
+    font-size: 16px;
+    line-height: 26px;
+    color: #39364f;
+    font-weight: bold;
+  }
+  .greetInfo {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    opacity: 0.6;
+  }
+  .tooltipHeading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #39364f;
+  }
+  .tooltipInfo {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 140%;
+    color: #39364f;
+  }
+
+  .notice {
+    padding: 4px 10px;
+    background-color: #fff;
+    border-left: 4px solid #9f9f9f94;
+    border-radius: 4px;
+    color: #39364f;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 7px -3px rgb(0 0 0 / 20%);
+    /* min-height: 50px; */
+    height: 86px;
+  }
+  .noticeText {
+    font-size: 13px;
+    color: #39364f;
+    opacity: 0.6;
+    margin-top: -3px;
+    display: block;
+  }
+
+  .noticeHeading {
+    font-size: 16px;
+    color: #39364f;
+    opacity: 1;
+  }
+
+  .notice-sm {
+    padding: 10px;
+    font-size: 80%;
+  }
+  .noticeArrow {
+    padding-top: 0.5rem !important;
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+    padding: 8px !important;
+  }
+}

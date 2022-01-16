@@ -1,0 +1,98 @@
+{
+  "name": "good-platform",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@react-pdf/renderer": "^2.0.16",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@types/react-select": "^5.0.1",
+    "antd": "^4.16.3",
+    "antd-password-input-strength": "^1.1.1",
+    "axios": "^0.21.1",
+    "bootprompt": "^6.0.2",
+    "bootstrap": "^4.6.1",
+    "calculate-percentages": "^1.0.0",
+    "elevate-ui": "^1.0.0",
+    "formik": "^2.2.9",
+    "jsbarcode": "^3.11.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
+    "react-bootstrap-select": "^0.14.0",
+    "react-circular-progressbar": "^2.0.4",
+    "react-countdown": "^2.3.2",
+    "react-datepicker": "^4.5.0",
+    "react-dnd": "^14.0.3",
+    "react-dnd-html5-backend": "^14.0.1",
+    "react-dom": "^17.0.2",
+    "react-json-to-csv": "^1.0.4",
+    "react-minimal-pie-chart": "^8.2.0",
+    "react-otp-input": "^2.3.1",
+    "react-redux": "^7.2.4",
+    "react-rounded-image": "^2.0.13",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.2.1",
+    "react-signature-canvas": "^1.0.3",
+    "react-svg": "^14.1.4",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-persist-transform-encrypt": "^3.0.1",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.43.4",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "template-curly-spacing": "off",
+      "indent": "off",
+      "semi": [
+        "warn",
+        "always"
+      ],
+      "no-multiple-empty-lines": [
+        "warn",
+        {
+          "max": 1,
+          "maxBOF": 1,
+          "maxEOF": 1
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}

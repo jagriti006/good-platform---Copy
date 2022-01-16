@@ -1,0 +1,224 @@
+.banner-section {
+  background-color: #e0e0e0;
+}
+.vertical {
+  border-left: 1px solid black;
+  height: 200px;
+  position: absolute;
+}
+
+.right-align {
+  padding-left: 39px;
+}
+.overview {
+  padding-bottom: 20px;
+}
+.content-banner {
+  padding: 40px 0px 80px 60px;
+}
+.row.content-banner {
+  border-radius: 17px 17px 30px 30px;
+  /* border: 1px solid #b4a8a8; */
+  background-color: #cccccc;
+}
+.bgcolor {
+  background-color: #bdbdbde0;
+}
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+button.team-approval-button {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: #000;
+  background-color: #bdbdbd;
+  padding: 7px 15px;
+  font-size: 14px;
+  /* font-family: bold; */
+}
+
+.sidebar a.active {
+  color: white;
+}
+
+.right-align-section {
+  padding-left: 5% !important;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.content-info {
+  margin-top: 50px;
+}
+
+button.edit-option {
+  border: 1px solid grey;
+  border-radius: 14px;
+  width: 60%;
+  padding: 7px;
+  background-color: #fff;
+  color: #ae9b9b;
+}
+
+.team-section {
+  margin-top: 5%;
+}
+
+.italicstar {
+  color: grey;
+}
+
+.duration {
+  padding-top: 25px;
+}
+.bgdur {
+  background-color: #eeeeee;
+  padding: 35px;
+}
+.mailnfo {
+  padding-bottom: 10px;
+}
+hr {
+  /*margin-right: 79px;*/
+  margin-right: 55px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+/* regform volunteer */
+.left-align {
+  margin-top: 50px;
+}
+.align-center {
+  text-align: center;
+}
+button.formsubmit {
+  width: 100%;
+  border: navajowhite;
+  border-radius: 10px;
+  padding: 8px;
+  background: grey;
+  color: #fff;
+}
+.volunteerregform {
+  top: 30px;
+}
+.regform input {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+.regform ::placeholder {
+  color: #000 !important;
+}
+.regform .ant-select-selector {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+}
+.userimg {
+  background: grey;
+  width: 70%;
+  height: 70%;
+  border: 1px solid #e3d8d852;
+  border-radius: 57px;
+}
+.awatarimg {
+  background: grey;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e3d8d852;
+  border-radius: 50%;
+}
+
+.banner-section-addbenif {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.arrowicon {
+  padding: 20px;
+}
+.heading {
+  background-color: #bdbdbd;
+  border: 1px solid #bebaba;
+  border-radius: 0px 0px 14px 14px;
+  padding: 10px;
+}
+.listing-page-banner {
+  padding: 40px 0px 60px 60px;
+  background-color: #e0e0e0;
+}
+.vertical-listing {
+  border-left: 1px solid black;
+  height: 160px;
+  position: absolute;
+}
+.bgcolor-count {
+  background-color: #bdbdbd;
+  position: absolute !important;
+  left: 35%;
+  top: 40%;
+  border: 1px solid #c9bdbd;
+  border-radius: 15px;
+}
+.bgcolor-count h5 {
+  padding-top: 25px;
+}
+.bgcolor-count span {
+  padding-bottom: 15px;
+}
+.bgcolor-count h4 {
+  margin-bottom: 13px;
+}
+.addbuttonbg .ant-btn {
+  background: #f5f5f5;
+}
+.addbuttonbg .add-benif {
+  padding-top: 13px;
+  padding-bottom: 37px;
+}
+.listCard {
+  border-radius: 2px;
+  background-color: #e5e5e5;
+  padding: 1rem;
+  margin-bottom: 0.1rem;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.invite {
+  float: right;
+}

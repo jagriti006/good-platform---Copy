@@ -1,0 +1,129 @@
+$header-heght: 75px;
+$primary-title-text-color: #3a8d9d;
+$field-border-default: #d9d8d8;
+$primary-text-color: #39364f;
+$light-blue-bg: #f4f8f8;
+.matrics-form-container {
+  .category-type {
+    color: $primary-title-text-color;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .curved-right-section {
+    background: #f4f8f8;
+    border-top-left-radius: 2rem;
+  }
+  .matrics-card {
+    background: #ffffff;
+    box-shadow: -1px -1px 13px 1px rgb(81 74 129 / 11%);
+  }
+  .card-title {
+    background: #f4f8f8;
+    margin-bottom: 0px;
+  }
+  .goal-title {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .strategic-goal-collapse {
+    .ant-collapse,
+    .ant-collapse > .ant-collapse-item {
+      border: none;
+    }
+    .ant-collapse-header {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: normal;
+    }
+    .ant-collapse-content {
+      border-top: none;
+    }
+    .goal-description {
+      font-size: 10px;
+      color: #676565;
+    }
+    .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+      padding: 1rem !important;
+    }
+    .metrics-button {
+      background: #f2f2f2;
+      border: 1px dashed #9a9898;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      height: 48px;
+    }
+  }
+  .edit-icon {
+    cursor: pointer;
+  }
+}
+
+.category-modal {
+  .ant-modal-header {
+    border: none;
+  }
+  .ant-modal-footer {
+    border: none;
+  }
+  .ant-modal-body {
+    h3 {
+      font-weight: 900;
+    }
+    h5 {
+      color: $primary-title-text-color;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}
+
+.custom-collapse {
+  border: none;
+
+  .custom-panel {
+    border: none;
+    box-shadow: 0px 5px 10px rgba(81, 74, 129, 0.07);
+    border-radius: 12px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+  .ant-collapse-content {
+    border-top: none;
+  }
+  .panel-title {
+    color: $primary-title-text-color;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  //Strategic Goals
+  .panel-header-regular {
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .panel-header {
+    color: $primary-title-text-color;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.ant-popover {
+  .ant-btn-primary {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: unset;
+    height: unset;
+  }
+}
+
+.unsgds {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}

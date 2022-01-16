@@ -1,0 +1,84 @@
+.beneficieryContainer {
+  padding-top: 2rem;
+  background: #FFFFFF;
+
+  .beneficieryHeading {
+    color: #39364f;
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .beneficieryFilterContainer {
+    background: #f4f8f8;
+    border-radius: 8px;
+    display: flex;
+
+    .beneficieryFilterInput {
+      color: #524f65;
+      height: 2.5rem;
+      border-radius: 10px !important;
+      border: 2px solid #e6e8e8;
+
+      input {
+        &::placeholder {
+          color: #524f65;
+        }
+      }
+    }
+
+    .beneficieryFilterButton {
+      border-radius: 8px;
+      background: #f4f8f8;
+      display: flex;
+      align-items: center;
+
+      &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .buttonActive {
+      background: #38a3bf;
+      color: #FFFFFF;
+    }
+
+    .popoverContainer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .popoverOverlay {
+        borderRadius: 10px;
+        padding: 1rem;
+      }
+    }
+
+    .filterTag {
+      border-radius: 1rem;
+      color: #39364f;
+      display: flex;
+
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .clearFilter {
+      color: #3a8d9e;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+  }
+
+  .beneficieryTable {
+    thead {
+      th {
+        color: #909090;
+        background: #FFFFFF;
+      }
+    }
+  }
+}

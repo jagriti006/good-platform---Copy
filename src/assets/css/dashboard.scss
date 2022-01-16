@@ -1,0 +1,20 @@
+.dashboardMenu {
+  .itemStyle {
+    padding-left: 14px !important;
+    text-transform: capitalize !important;
+    font-size: 13px !important;
+  }
+
+  .ant-layout-sider {
+    position: relative;
+    min-width: 0;
+    background: #ffffff !important;
+    transition: all 0.2s;
+    /* margin-top: 2%; */
+  }
+
+  .menuImage{
+    margin: 20px auto;
+    display: block;
+  }
+}

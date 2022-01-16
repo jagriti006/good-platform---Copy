@@ -1,0 +1,126 @@
+import { AndroidOutlined, AppleOutlined, DotChartOutlined, RightOutlined, UserOutlined } from "@ant-design/icons";
+import { Button, Col, Row, Tabs } from "antd";
+import Avatar from "antd/lib/avatar/avatar";
+import Text from "antd/lib/typography/Text";
+import React, { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { useHistory } from "react-router-dom";
+import programcreationAPI from "../../../api/programcreationAPI";
+import appRoutes from "../../../constants/app-routes";
+import { PROGRAM_STATUS } from "../../../constants/strings";
+import { sidebarActions } from "../../../redux/ui/uiActions";
+import ProgramCard from "./ProgramCard";
+import "./programlist.scss";
+
+import frame1 from "../../../assets/images/program-creation/Frame1.png";
+import frame2 from "../../../assets/images/program-creation/Frame2.png";
+import frame3 from "../../../assets/images/program-creation/Frame3.png";
+
+const ProgramList = () => {
+  const history = useHistory();
+  const [projects, setProjects] = useState([]);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    sessionStorage.setItem("projectId", "");
+    const fetchData = async () => {
+      dispatch(sidebarActions.showSidebar());
+      const organisationId = sessionStorage.organisationId;
+      const response = await programcreationAPI().fetchProgramList(organisationId);
+      if (response?.data) {
+        setProjects(response.data);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const handleProgramOverview = (project) => {
+    sessionStorage.setItem("projectId", project.id);
+    history.push(`${appRoutes.PROGRAM_CREATION}${appRoutes.PROGRAM_OVERVIEW_MAIN}/${project.id}`);
+  };
+
+  const getProjecstByStatus = (status) => {
+    const filteredProjects = projects.filter((item) => item.status === status);
+    return filteredProjects.map(
+      (item) =>
+        item.id && (
+          <ProgramCard
+            key={item.id}
+            program={item.name}
+            logoUrl={item.logoUrl}
+            categories={[item.primaryImpact, item.secondaryImpact1, item.secondaryImpact2]}
+            description={item.description}
+            status={item.status}
+            percentage={item.percentageOfCompletion}
+            createdOn={item?.createdOn}
+            onProgramClick={() => handleProgramOverview(item)}
+          />
+        )
+    );
+  };
+
+  const getTabLength = (type) => {
+    const filteredProjects = projects.filter((item) => item.status === type);
+    return filteredProjects.length || 0;
+  };
+
+  return (
+    <Row className="program-list">
+      <Col
+        xs={24}
+        className="d-flex justify-content-between align-items-center p-2 paddingAlign"
+        style={{ background: "white" }}
+      >
+        <h4 className="m-0">Programs</h4>
+        <Button
+          className="create-program-button"
+          onClick={() => history.push(`${appRoutes.PROGRAM_CREATION}${appRoutes.PRG_IMPACT_CATEGORY}`)}
+        >
+          New Program
+        </Button>
+      </Col>
+      <Col xs={24} className="">
+        <Tabs defaultActiveKey="1">
+          <Tabs.TabPane
+            tab={
+              <span className="d-flex align-items-center">
+                <img src={frame3} alt="" className="pad-right-5" />
+                Active ({getTabLength(PROGRAM_STATUS.ACTIVE)})
+              </span>
+            }
+            key="1"
+          >
+            <Row gutter={[24, 24]}>{getProjecstByStatus(PROGRAM_STATUS.ACTIVE)}</Row>
+          </Tabs.TabPane>
+
+          <Tabs.TabPane
+            tab={
+              <span className="d-flex align-items-center">
+                <img src={frame2} alt="" className="pad-right-5" />
+                Drafts ({getTabLength(PROGRAM_STATUS.DRAFT)})
+              </span>
+            }
+            key="2"
+          >
+            <Row gutter={[16, 16]}>{getProjecstByStatus(PROGRAM_STATUS.DRAFT)}</Row>
+          </Tabs.TabPane>
+
+          <Tabs.TabPane
+            tab={
+              <span className="d-flex align-items-center">
+                <img src={frame1} alt="" className="pad-right-5" />
+                Achived ({getTabLength(PROGRAM_STATUS.ACHIEVED)})
+              </span>
+            }
+            key="3"
+          >
+            <Row gutter={[16, 16]}>{getProjecstByStatus(PROGRAM_STATUS.ACHIEVED)}</Row>
+          </Tabs.TabPane>
+        </Tabs>
+      </Col>
+    </Row>
+  );
+};
+
+
+export default ProgramList;

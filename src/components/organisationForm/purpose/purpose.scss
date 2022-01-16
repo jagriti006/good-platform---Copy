@@ -1,0 +1,142 @@
+$primary-title-text-color: #3a8d9d;
+.Purposepage {
+  .sectionPanel {
+    border-bottom: 0px !important;
+    background: #F4F8F8;
+    border-radius: 6px;
+
+    .ant-collapse-header {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600 !important;
+      font-size: 13px !important;
+      line-height: 22px !important;
+      color: #39364F !important;
+    }
+
+    .ant-collapse-content {
+      border-top: 0px !important;
+
+      .ant-collapse-content-box {
+        padding-left: 1.9rem !important;
+        padding-top: 0rem;
+
+        .seconddescription {
+          //margin: 0rem !important;
+        }
+
+        .react-search-field{
+          border-radius: 6px !important;
+        }
+      }
+    }
+
+    .empty_row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0rem 1rem;
+
+      .empty_row_div {
+        border: 2px dotted #d9d8d8;
+        height: 3rem;
+        width: 46.8%;
+        border-radius: 6px;
+      }
+
+      .fill_row_div {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #49b8cd;
+        height: 3rem;
+        width: 46.8%;
+        border-radius: 6px;
+      }
+
+      .remove_div {
+        position: relative;
+        bottom: 1rem;
+        left: 1rem;
+      }
+    }
+
+    .custom-row {
+      .custom-col-md-6 {
+        height: 3rem;
+        width: 100%;
+        padding-right: 1rem !important;
+        margin-bottom: 1rem;
+
+        .col-md-6-div {
+          height: 100%;
+          width: 100%;
+          //border: 1px solid #39364F;
+          border: 1px solid;
+          border-radius: 6px;
+          //background: #39364F;
+
+          .ant-radio-button-wrapper, .ant-checkbox-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            .ant-checkbox {
+              display: none;
+            }
+          }
+
+          .ant-radio-button {
+            background: #F4F8F8;
+          }
+        }
+      }
+    }
+
+    .custom-checkbox-group {
+      display: inline !important;
+    }
+
+  }
+
+  .timeline_data {
+    .ant-timeline {
+      .ant-timeline-item-last {
+        .ant-timeline-item-tail {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  .ant-select{
+    .ant-select-selector{
+      .ant-select-selection-search{
+        .ant-select-selection-search-input {
+          padding: 0.5rem !important;
+        }
+      }
+    }
+  }
+  
+  .labelText {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .pin-via-link {
+    color: $primary-title-text-color !important;
+  }
+  .pin-via-google {
+    display: block;
+    margin-top: 10px;
+  }
+}

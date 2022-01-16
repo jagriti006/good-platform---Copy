@@ -1,0 +1,186 @@
+.authForm {
+  .textHeading {
+    width: 70%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #39364f;
+    padding-left: 30px;
+  }
+
+  .textParagraph {
+    width: 55%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7d7d90;
+    padding-left: 30px;
+  }
+
+  .authFormMargin {
+    margin: auto;
+    margin-top: 4%;
+  }
+
+  .cardHeading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #39364f;
+  }
+
+  .ant-divider-horizontal.ant-divider-with-text {
+    font-size: 10px !important;
+  }
+
+  .loginButton {
+    display: inline;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    border-color: #39364f !important;
+    background: #39364f !important;
+    color: #fff !important;
+    border-radius: 6px;
+    width: 143px;
+    height: 50px;
+    margin-top: 6%;
+  }
+
+  .forgotPasswordButton {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #3a8d9d !important;
+  }
+
+  .verticalCenterText {
+    position: absolute;
+    font-size: 10px;
+    top: -8px;
+    left: 49%;
+    background-color: #fff;
+  }
+  .verticalLine {
+    height: 1px;
+    opacity: 0.1;
+    background: #39364f;
+  }
+
+  .btn-google {
+    border: 1px solid #d9d8d8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 15px;
+  }
+
+  .registartionText {
+    font-size: 13px;
+  }
+
+  .loginhere-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #3a8d9d !important;
+    text-decoration: none;
+  }
+  .loginhere-link:hover {
+    text-decoration: underline;
+  }
+
+  .registrationButton,
+  .forgotPasswordSubmitButton,
+  .passwordResetButton {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    border-color: #39364f !important;
+    background: #39364f !important;
+    color: #fff !important;
+    border-radius: 6px;
+    width: 228px;
+    height: 50px;
+    margin-top: 6%;
+  }
+
+  .resendButton {
+    border: 0px;
+    background: transparent;
+  }
+
+  .ant-input-affix-wrapper {
+    height: 48px;
+    border-radius: 36px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px !important;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d8d8 !important;
+    border-radius: 6px;
+    transition: all 0.3s;
+    display: inline-flex;
+    &:focus {
+      padding: 0 !important;
+    }
+    input {
+      padding: 0 !important;
+      height: auto !important;
+      margin-top: 0 !important;
+      &:focus {
+        height: auto !important;
+        padding: 0 !important;
+        border: none !important;
+        border-radius: 0 !important;
+        margin-top: 0 !important;
+      }
+    }
+  }
+  .pass-strength-conatiner {
+    div:first-child > div {
+      position: absolute;
+      right: 18px;
+      width: 80px;
+      margin: 8px 0;
+      div {
+        width: 6px !important;
+        height: 6px !important;
+        border-radius: 8px !important;
+        margin: 0px 2px;
+      }
+    }
+  }
+  .pass-nostrength {
+    div:first-child > div {
+      display: none;
+    }
+  }
+}

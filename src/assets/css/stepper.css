@@ -1,0 +1,124 @@
+/* Stepper Form  */
+.stepper-horizontal {
+  background-color: #e9e8e8;
+  margin-top: 1%;
+  padding: 30px 0px;
+}
+
+.stepperBackground {
+  background-color: #fbfbfb;
+}
+.steps-content {
+  min-height: 200px;
+  margin-top: 16px;
+  /* padding-top: 40px; */
+  /* text-align: center; */
+  border-radius: 2px;
+}
+
+.steps-action {
+  margin-top: 24px;
+  width: 25%;
+}
+
+.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background: #39364f !important;
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  background: #0f0f0f !important;
+}
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+  background-color: #1b1b1b !important;
+}
+
+.ant-steps-vertical.ant-steps-dot
+  .ant-steps-item-process
+  .ant-steps-item-container
+  .ant-steps-item-icon
+  .ant-steps-icon-dot {
+  left: 0px !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+  color: #bfbfbf !important;
+}
+
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-title,
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-subtitle,
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-description {
+  color: #bfbfbf !important;
+}
+
+.ant-steps-vertical > .ant-steps-item .ant-steps-item-content {
+  display: block;
+  min-height: 70px !important;
+  overflow: hidden;
+}
+
+.ant-btn {
+  text-transform: uppercase;
+}
+.ant-btn-primary {
+  color: #fff !important;
+  background: #39364f !important;
+  border-radius: 5px;
+  height: 48px;
+  border-color: #bfbfbf;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: #39364f !important;
+  border-color: #39364f !important;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #39364f;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em;
+  padding-right: 0px !important;
+}
+
+.ant-steps-item {
+  position: relative;
+  display: flex !important;
+  flex: auto !important;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+  padding-left: 0px !important;
+  white-space: nowrap;
+}
+
+.ant-steps-item-title {
+  position: relative;
+  display: inline-block;
+  padding-right: 0px;
+  letter-spacing: 0.01em;
+  color: #a6a5b0;
+  font-size: 13px !important;
+  line-height: 32px;
+}
+
+.ant-steps-item-icon {
+  margin: 0px !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+.stepperHorizontal {
+  width: 70%;
+}

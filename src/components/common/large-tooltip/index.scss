@@ -1,0 +1,48 @@
+.large-tool-tip {
+  .arrow_box {
+    position: relative;
+    background: #ffe0e0;
+    border: 4px solid #ffe0e0;
+    padding: 30px;
+    border-radius: 6px;
+  }
+  .arrow_box:after,
+  .arrow_box:before {
+    right: 97%;
+    top: 34%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #ffe0e0;
+    border-width: 26px;
+    margin-top: -55px;
+  }
+  .arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #ffe0e0;
+    border-width: 36px;
+    margin-top: -36px;
+    display: none;
+  }
+  .tipbox {
+    padding-top: 6%;
+  }
+  .tooltipHeading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #39364f;
+  }
+  .tooltipInfo {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 140%;
+    color: #39364f;
+  }
+}

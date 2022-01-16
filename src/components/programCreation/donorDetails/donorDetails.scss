@@ -1,0 +1,11 @@
+.formStyles {
+  $primary-title-text-color: #3a8d9d;
+  $field-border-default: #d9d8d8;
+  // code for autofill
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+}

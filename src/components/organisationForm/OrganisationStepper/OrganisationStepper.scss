@@ -1,0 +1,15 @@
+.formStyles {
+  .organisationFormDivider {
+    //background: #ececec;
+    //height: 2px;
+    border-top: 0px !important;
+  }
+}
+
+.OrganisationForm {
+  .stepper_content_center {
+    .ant-steps-item {
+      justify-content: center !important;
+    }
+  }
+}

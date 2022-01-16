@@ -1,0 +1,19 @@
+.formStyles {
+  .formStylesButton {
+    background: #e7e7ea;
+    color: #FFFFFF;
+    border-color: #e7e7ea;
+    border-radius: 0.5rem;
+  }
+
+  .buttonText > span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "realm": "good-platform-realm",
+  "auth-server-url": "http://3.108.162.127:8080/auth/",
+  "ssl-required": "none",
+  "resource": "vanilla2",
+  "public-client": true,
+  "confidential-port": 0,
+  "verify-token-audience": true,
+  "use-resource-role-mappings": true
+}

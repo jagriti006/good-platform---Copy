@@ -1,0 +1,174 @@
+.programbgcoloroverview {
+  background-color: #fff;
+
+  .programgreetText {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #39364f;
+    text-transform: none;
+    letter-spacing: 0rem;
+  }
+
+  .programgreetMessage {
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    font-weight: normal;
+  }
+
+  .previewProgramName {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #39364f;
+    width: 10rem;
+    margin: 0;
+  }
+
+  .inprogress_div {
+    width: 141px;
+    height: 36px;
+    background: #CDCCCB;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem 0;
+  }
+
+  .inprogress_div_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+
+  img.inprogess_image{
+    width: 47px;
+    height: 47px;
+  }
+
+  img.programoverviewimageprogramoverviewimage {
+    padding: initial;
+  }
+
+  .programContainer {
+    padding: 2rem;
+    background: #F4F8F8;
+    box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+    border-top-left-radius: 5rem;
+    margin: 1.5rem 0;
+
+    .card-container {
+      margin: 3rem;
+    }
+
+    .programContent {
+      padding: 48px 26px;
+      background: #ffffff;
+      box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+      border-radius: 12px;
+      margin: 2rem 0rem;
+    }
+  }
+
+  .programCardHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #39364F;
+  }
+
+  .programCardHeadingText {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 12rem;
+  }
+
+  .programContentDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .programCardLoc {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364f;
+    opacity: 0.6;
+  }
+
+  .overview_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0px;
+  }
+
+  .overview_div_p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #39364F;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .verticalLine {
+    height: 1px;
+    opacity: 0.1;
+    background: #39364f;
+  }
+
+  .form-group {
+    margin-bottom: 0rem;
+  }
+
+  .textCenter {
+    text-align: center !important;
+  }
+
+  .programForm {
+    .programButton {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 50px;
+      width: 100%;
+      height: 51px;
+      background: #E7E7EA !important;
+      border-radius: 6px;
+
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 19px;
+      border-color: #E7E7EA !important;
+      color: #FFFFFF !important;
+      margin-top: 10%;
+    }
+  }
+}
